@@ -1,0 +1,24 @@
+{
+  "name": "@kovalenko/virtual-property",
+  "version": "0.0.0",
+  "description": "Non-enumerable property for JS object",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "pack": "copyfiles package.json README.md CHANGELOG.md dist"
+  },
+  "author": "Kovalenko",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^10.0.3",
+    "copyfiles": "^2.4.1",
+    "semantic-release": "^21.0.1",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.2.2"
+  }
+}
