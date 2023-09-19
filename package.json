@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
-    "pack": "copyfiles package.json README.md CHANGELOG.md dist"
+    "pack": "copyfiles package.json README.md dist"
   },
   "author": "Kovalenko",
   "license": "MIT",
