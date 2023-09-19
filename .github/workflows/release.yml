@@ -26,7 +26,7 @@ jobs:
           cache: 'npm'
       - run: npm i --legacy-peer-deps
       - run: npm run build
-      - run: npm run copyfiles
+      - run: npm run pack
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
