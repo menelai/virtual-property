@@ -20,5 +20,8 @@
     "semantic-release": "^21.0.1",
     "rimraf": "^5.0.1",
     "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
